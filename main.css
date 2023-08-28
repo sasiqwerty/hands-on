@@ -1,0 +1,62 @@
+/* Reset some default styles */
+body {
+	background-image: url(bg.svg);
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Style the navbar container */
+#main-navbar {
+	background-color: #333;
+	overflow: auto;
+}
+
+/* Style the list */
+.nav-list {
+	display: flex; /* This makes the items appear in a row */
+	justify-content: space-around; /* This evenly distributes the space between the items */
+	list-style-type: none; /* Removes the default bullet points */
+}
+
+/* Style each individual item */
+.nav-item {
+	flex-grow: 1;
+	text-align: center; /* Centers the text */
+	padding: 0.25rem; /* Some padding for appearance */
+}
+
+/* Style the links */
+.nav-link {
+	text-decoration: none; /* Removes the default underline from links */
+	color: white; /* Makes the text color white */
+	transition: background-color 0.3s; /* Smooth transition for hover effects */
+}
+
+.nav-link:hover {
+	background-color: #555; /* A darker background on hover */
+}
+
+.parent-container {
+	display: flex;
+	justify-content: center; /* Center horizontally */
+	align-items: center; /* Center vertically */
+	margin: 0;
+	padding: 0; /* Adjust this to the desired height or use % */
+	font-size: 1.3rem;
+}
+
+.about-condense {
+    display: flex;
+
+	margin: 1rem;
+	padding: 1rem;
+
+}
+.about-condense-li {
+    display: block;
+	list-style-type: none;
+	margin: 1rem;
+    background-color: rgba(198, 198, 198, 0.1);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}

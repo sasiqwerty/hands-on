@@ -1,0 +1,11 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Define the pattern -->
+    <defs>
+        <pattern id="dots" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+            <circle cx="5" cy="5" r="1" fill="#b03e3e" opacity="0.08"/>
+        </pattern>
+    </defs>
+
+    <!-- Apply the pattern -->
+    <rect width="200" height="200" fill="url(#dots)"/>
+</svg>
