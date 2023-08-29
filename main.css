@@ -8,7 +8,7 @@ body {
 /* Style the navbar container */
 #main-navbar {
 	background-color: #333;
-	overflow: auto;
+
 }
 
 /* Style the list */
@@ -36,27 +36,16 @@ body {
 	background-color: #555; /* A darker background on hover */
 }
 
-.parent-container {
-	display: flex;
-	justify-content: center; /* Center horizontally */
-	align-items: center; /* Center vertically */
-	margin: 0;
-	padding: 0; /* Adjust this to the desired height or use % */
-	font-size: 1.3rem;
-}
-
 .about-condense {
-    display: flex;
-
+	display: flex;
 	margin: 1rem;
 	padding: 1rem;
-
 }
 .about-condense-li {
-    display: block;
+	display: block;
 	list-style-type: none;
 	margin: 1rem;
-    background-color: rgba(198, 198, 198, 0.1);
-    padding: 0.5rem;
-    border-radius: 0.5rem;
+	background-color: rgba(198, 198, 198, 0.1);
+	padding: 0.5rem;
+	border-radius: 0.5rem;
 }
