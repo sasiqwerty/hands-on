@@ -1,0 +1,77 @@
+/* General styling */
+body, html {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    height: 100%;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quiz-container {
+    max-width: 37.5rem;  /* 600px equivalent */
+    padding: 1.25rem;  /* 20px equivalent */
+    background-color: #ffffff;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);  /* 10px equivalent */
+    border-radius: 0.5rem;  /* 8px equivalent */
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 0.125rem solid #3498db;  /* 2px equivalent */
+    padding-bottom: 0.625rem;  /* 10px equivalent */
+    margin-bottom: 1.25rem;  /* 20px equivalent */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Styling for options */
+input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+label span {
+    display: block; 
+    padding: 0.625rem;  /* 10px equivalent */
+    background-color: #3498db; /* Initial color */
+    color: #fff;
+    border-radius: 0.3125rem;  /* 5px equivalent */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="radio"]:checked + span {
+    background-color: #f39c12; /* Color when selected */
+}
+
+input[type="radio"]:checked ~ span {
+    background-color: #f39c12; /* Color when selected */
+}
+
+/* Styling for buttons */
+button {
+    padding: 0.625rem 0.9375rem;  /* 10px and 15px equivalent respectively */
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 0.3125rem;  /* 5px equivalent */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #27ae60;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Flash Card Quiz</title>
+</head>
+<body>
+    <div id="setup">
+        <label for="quizLength">Length of the Quiz: </label>
+        <input type="number" id="quizLength" min="1" required>
+        <button onclick="startQuiz()">Start</button>
+    </div>
+
+    <div id="quiz" style="display: none;">
+        <p id="question"></p>
+        <label><input type="radio" name="option" value="A"> <span id="optionA"></span></label><br>
+        <label><input type="radio" name="option" value="B"> <span id="optionB"></span></label><br>
+        <label><input type="radio" name="option" value="C"> <span id="optionC"></span></label><br>
+        <label><input type="radio" name="option" value="D"> <span id="optionD"></span></label><br>
+        <button onclick="nextQuestion()">Next</button>
+    </div>
+
+    <div id="results" style="display: none;">
+        <h2>Results</h2>
+        <p>Correct: <span id="correctCount">0</span></p>
+        <p>Incorrect: <span id="wrongCount">0</span></p>
+        <ul id="wrongList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

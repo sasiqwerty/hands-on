@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Which of the following is a personal pronoun?",
+    "options": ["run", "table", "they", "quickly"],
+    "answer": "C"
+  },
+  {
+    "question": "Which sentence is in the passive voice?",
+    "options": ["Cats chase mice.", "She baked a cake.", "A cake was baked by her.", "They are running fast."],
+    "answer": "C"
+  },
+  {
+    "question": "What does an adverb typically describe?",
+    "options": ["Nouns", "Pronouns", "Adjectives", "Verbs"],
+    "answer": "D"
+  },
+  {
+    "question": "Which of the following is a conjunction?",
+    "options": ["and", "happy", "run", "quick"],
+    "answer": "A"
+  },
+  {
+    "question": "Which word is the subject in the sentence: 'The quick brown fox jumps over the lazy dog'?",
+    "options": ["jumps", "fox", "dog", "over"],
+    "answer": "B"
+  },
+  {
+    "question": "In which sentence is the word 'fast' used as an adjective?",
+    "options": ["He runs fast.", "He has a fast car.", "Go as fast as you can.", "Think fast!"],
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following is an interrogative pronoun?",
+    "options": ["who", "she", "they", "it"],
+    "answer": "A"
+  },
+  {
+    "question": "Which sentence correctly uses the word 'its'?",
+    "options": ["Its raining outside.", "The cat licked its paw.", "Its a long way home.", "The dog wagged it's tail."],
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following words is an article?",
+    "options": ["apple", "run", "an", "beautiful"],
+    "answer": "C"
+  },
+  {
+    "question": "Which sentence is in the future tense?",
+    "options": ["She dances gracefully.", "She danced all night.", "She will dance tomorrow.", "She has been dancing for hours."],
+    "answer": "C"
+  }
+]
